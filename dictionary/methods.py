@@ -5,3 +5,6 @@ print(ep1)
 ep1.clear()#removes all items in list
 ep1.pop()#removes key-value whose key is passed as a parameter
 ep1.popitem()#removes the last key-value from dict
+ep1.len()#to find length of dictionary
+ep1.pop(key)#removed element with specified key name
+ep1.zip()#pair elements of multiple lists
