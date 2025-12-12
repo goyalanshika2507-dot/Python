@@ -16,12 +16,21 @@
 # except:
 #     #solutions of generated exception
 
+# try:
+#    num=int(input("enter an integer"))
+#    a=[6,3]
+#    print(a[num])
+# except ValueError:
+#    print("number entered in not an integer")
+# except IndexError:
+#    print("Index Error")
+   
 try:
-   num=int(input("enter an integer"))
-   a=[6,3]
-   print(a[num])
-except ValueError:
-   print("number entered in not an integer")
-except IndexError:
-   print("Index Error")
+    l=[1,5,6,7]
+    i=int(input("enter the index:"))
+    print(l[i])
+except:
+    print("some error occured")
+finally:
+    print("i m always executed")
    
