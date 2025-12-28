@@ -1,8 +1,6 @@
-#1
-#a=input("enter string")
-#=a[::-1]
-#=c
-#if a==b:
- #   print("palindrome string")
-#else:
- #   print("not palindrome string")
+a=input("enter string")
+b=a[::-1]
+if a==b:
+   print("palindrome string")
+else:
+   print("not palindrome string")
