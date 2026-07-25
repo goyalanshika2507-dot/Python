@@ -1,7 +1,7 @@
 #math module
 # import math
 # from math import ceil
-# # sqrt(200)
+#  sqrt(200)
 # print(pow(2,3))
 # math.ceil(2.6)
 # print(ceil(2.6))

@@ -16,7 +16,7 @@ while True:
      else:  
        print("File does not exist.") 
    elif choice == '2': 
-     text = input("Enter text to write: ") 
+     stext = input("Enter text to write: ") 
 with open(filename, 'w') as f: 
 f.write(text) 
 print("File written successfully.") 
